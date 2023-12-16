@@ -1,0 +1,112 @@
+<div id="canvas" oncontextmenu = "return false;" style="
+	background-color: white;
+">
+	<div id="background-canvas">
+
+	</div>
+
+	<div>
+		<img src="./grafics/2 Background/Day/Background.png" style="
+			position: absolute;
+			left: 0;
+			bottom: 64px;
+			width: 100%;
+		"/>
+	</div>
+	<img src="./img/fullscreen.png" id="fsBtn" style="
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	" />
+	<div id="img-block" style="
+		width: 96px;
+		height: 96px;
+		overflow: hidden;
+		position: absolute;
+		left: 0px;
+		bottom: 64px;
+	">
+		<img id="hero-img" style="
+			width: 576px;
+			height: 384px;
+			position: relative;
+			top: 0px;
+			left: -96px;
+			transform: scale(-1,1);
+		" src="./img/kisspng-sprite-animation-2d-computer-graphics-3d-modeling-sprite-thunder-animation-5ad9959679a293.6747826115242090464982.png" />
+	</div>
+	<div id="jump-block" style="
+		position: absolute;
+		top: 0;
+		left: 1165px;
+		width: 144px;
+		height: 144px;
+		overflow: hidden;
+	">
+		<img src="./img/kisspng-sprite-animation-2d-computer-graphics-3d-modeling-sprite-thunder-animation-5ad9959679a293.6747826115242090464982.png" style="
+			position: absolute;
+			top: -144px;
+			left: -144px;
+			width: 864px;
+			height: 576px;
+			transform: scale(-1,1);
+		" />
+		<div style="
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 140px;
+			height: 140px;
+			border: 2px solid rgb(0, 119, 255);
+			border-radius: 50%;
+		"			
+		></div>
+	</div>
+	<div id="hit-block" style="
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 144px;
+		height: 144px;
+		overflow: hidden;
+	">
+		<img src="./img/kisspng-sprite-animation-2d-computer-graphics-3d-modeling-sprite-thunder-animation-5ad9959679a293.6747826115242090464982.png" style="
+			position: absolute;
+			top: -452px;
+			left: -442px;
+			width: 864px;
+			height: 576px;
+			transform: scale(-1,1);
+		" />
+		<div style="
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 140px;
+			height: 140px;
+			border: 2px solid rgb(0, 119, 255);
+			border-radius: 50%;
+		"			
+		></div>
+	</div>	
+	<p id="info" style="
+		display: none;
+		position: absolute;
+		left: 64px;
+		top: 96px;
+		background-color: black;
+		color: white;
+		font-size: 20pt;
+		padding: 20px;
+	"></p>
+
+    <!-- <img src="./grafics/Hearts/heart.png" alt=""> -->
+</div>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+</style> 
+
+<script src="./target.js"></script>
